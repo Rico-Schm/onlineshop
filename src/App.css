@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+* {
+  margin: 0; padding:0;
+  font-family: "Rethink Sans", sans-serif;
+  font-size: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: aqua;
+  max-width: 60%;
+  margin: auto;
+
+  & h1 {
+    font-size: 2.5rem;
+  }
+
+  & h2 {
+    font-size: 2rem;
+  }
+
+  & h3 {
+    font-size: 1.8rem;
+  }
+
+  & h4 {
+    font-size: 1.7rem;
+  }
+
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  & nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+}
+
+/* main */
+
+/* footer */
+
+/* media queries */
+
