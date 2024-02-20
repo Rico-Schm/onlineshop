@@ -16,6 +16,7 @@ function Header() {
             <h1 id='logo'>Logo</h1>
             <section id='filter'>
                 <section id='search'>
+                    <span class="icon-[carbon--search]"></span>
                 </section>
             </section>
             </section>

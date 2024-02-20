@@ -3,6 +3,7 @@
 #root {
   width: 60%;
   margin: auto;
+  /* border: 1px solid rgba(0,0,0,.2); */
 }
 
 * {
@@ -46,6 +47,11 @@ body {
   margin: auto;
 }
 
+#wrapper {
+  width: 60%;
+  border: 1px solid rgba(0,0,0,.2);
+}
+
 /* header */
 #header-top {
   /* background-color: cadetblue; */
@@ -78,7 +84,7 @@ section#banner {
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 
   & .recommends-box {
     background-color: cadetblue;

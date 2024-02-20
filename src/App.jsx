@@ -8,12 +8,12 @@ import './App.css'
 
 const App = () => {
   return (
-    <>
+    <section id='wrapper'>
       <Header />
       {/* <Kategorien /> */}
       <Empfehlungen />
       <Footer />
-    </>
+    </section>
   )
 }
 
