@@ -10,7 +10,7 @@ import Vase from '../assets/prod8.jpg';
 
 function Empfehlungen() {
     return (
-        <section id='recs'>
+        <section id='empfehlungen'>
             <h3>Unsere Empfehlungen für Sie</h3>
             <section id='recommends'>
                 <section className='recommends-box'>

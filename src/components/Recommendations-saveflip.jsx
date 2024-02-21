@@ -14,6 +14,13 @@ function Empfehlungen() {
             <h3>Unsere Empfehlungen für Sie</h3>
             <section id='recommends'>
                 <section className='recommends-box'>
+                    <section className='flip-card'>
+                        <section className='flip-card-inner'>
+                            <section className='flip-card-front'>
+                                
+                            </section>
+                        </section>
+                    </section>
                     <img src={Kerzenhalter} alt="Kerzenhalter 3er Set" />
                     <p>Stoff Nagel - Kerzenhalter, 3er-Set</p>
                     <strong className='price'>Preis: 99,99 €</strong>

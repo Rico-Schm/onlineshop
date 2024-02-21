@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+#recommends {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .recommends-box {
+    flex: 1 1 calc(25% - 1rem);
+    margin-bottom: 1rem;
+  }
+  
+  .flip-card {
+    perspective: 1000px; /* Perspektive für den 3D-Effekt */
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%; /* Quadratisches Verhältnis für das Bild beibehalten */
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg); /* Beim Hover drehen */
+  }
+  
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* Verhindern, dass die Rückseite während der Drehung sichtbar wird */
+  }
+  
+  .flip-card-front {
+    /* Stil für die Vorderseite */
+  }
+  
+  .flip-card-back {
+    transform: rotateY(180deg); /* Rückseite zu Beginn umdrehen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flip-card-back p,
+  .flip-card-back strong {
+    margin: 0.5rem; /* Platz um den Text */
+  }
+  

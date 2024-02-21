@@ -45,7 +45,7 @@ const Footer = () => {
         </section>
         <section id='footer-bottom'>
             <section>
-                <strong>Copyright 2023 - Shop</strong>
+                <strong><a href="#header-top">Copyright 2023 - Shop</a></strong>
             </section>
             <section>
                 <strong>

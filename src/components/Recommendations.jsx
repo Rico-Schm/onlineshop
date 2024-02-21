@@ -8,25 +8,37 @@ import Topper from '../assets/prod6.jpg';
 import Shells from '../assets/prod7.jpg';
 import Vase from '../assets/prod8.jpg';
 
-function Empfehlungen() {
+function Recommendations() {
     return (
         <section id='recs'>
             <h3>Unsere Empfehlungen für Sie</h3>
             <section id='recommends'>
                 <section className='recommends-box'>
-                    <img src={Kerzenhalter} alt="Kerzenhalter 3er Set" />
-                    <p>Stoff Nagel - Kerzenhalter, 3er-Set</p>
-                    <strong className='price'>Preis: 99,99 €</strong>
+                    <section className='flip-card'>
+                        <section className='flip-card-inner'>
+                            <section className='flip-card-front'>
+                                <img src={Kerzenhalter} alt="Kerzenhalter 3er Set" />
+                            </section>
+                            <section className='flip-card-back'>
+                                <p>Stoff Nagel - Kerzenhalter, 3er-Set</p>
+                                <strong className='price'>Preis: 99,99 €</strong>
+                            </section>
+                        </section>
+                    </section>
                 </section>
                 <section className='recommends-box'>
                     <img src={Messing} alt="Messing-Ornament Blatt" />
-                    <p>ferm Living - Messing-Ornament Blatt (4er-Set)</p>
-                    <strong className='price'>Preis: 19,00 €</strong>
+                    <section className='recs-text'>
+                        <p>ferm Living - Messing-Ornament Blatt (4er-Set)</p>
+                        <strong className='price'>Preis: 19,00 €</strong>
+                    </section>
                 </section>
                 <section className='recommends-box'>
                     <img src={EggCups} alt="Hkliving - 70´2 Eierbecher" />
-                    <p>HKliving - 70'2 Eierbecher (4er-Set)</p>
-                    <strong className='price'>Preis: 24,95 €</strong>
+                    <section className='recs-text'>
+                        <p>HKliving - 70'2 Eierbecher (4er-Set)</p>
+                        <strong className='price'>Preis: 24,95 €</strong>
+                    </section>
                 </section>
                 <section className='recommends-box'>
                     <img src={Cups} alt="Hkliving - 70's Cappucino Tassen" />
@@ -58,4 +70,4 @@ function Empfehlungen() {
     );
 }
 
-export default Empfehlungen;
+export default Recommendations;
